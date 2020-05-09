@@ -99,6 +99,8 @@ exports.Login = async (req, res) => {
 exports.dashboard = async (req, res) => {
     if (olduser != null)
         res.render('dashboard');
+    else
+     res.render('error',{error:"Please Login First"});
 }
 
 
@@ -106,26 +108,36 @@ exports.dashboard = async (req, res) => {
 exports.getAbout = async (req, res) => {
     if (olduser != null)
         res.render('about');
+        else
+        res.render('error',{error:"Please Login First"});
 }
 
 exports.getOrder = async (req, res) => {
     if (olduser != null)
         res.render('order');
+        else
+     res.render('error',{error:"Please Login First"});
 }
 
 exports.getResources = async (req, res) => {
     if (olduser != null)
         res.render('consuling');
+        else
+     res.render('error',{error:"Please Login First"});
 }
 
 exports.Team = async (req, res) => {
     if (olduser != null)
         res.render('Team');
+        else
+     res.render('error',{error:"Please Login First"});
 }
 
 exports.counsel = async (req, res) => {
     if (olduser != null)
         res.render('consul');
+        else
+     res.render('error',{error:"Please Login First"});
 }
 
 exports.logout = async (req, res) => {

@@ -9,8 +9,7 @@ var urlencodedParser = bodyParser.urlencoded({ extended: false });
 const admincontroller = require('../controller/admin');
 
 
-//Start Test
-router.get('/trial', admincontroller.trial);
+
 router.get('/home', admincontroller.home);
 
 router.get('/dashboard', admincontroller.dashboard);
@@ -32,8 +31,7 @@ router.get('/getResources', admincontroller.getResources);
 router.get('/Team', admincontroller.Team);
 router.get('/counsel', admincontroller.counsel);
 
-
-// router.post('/login',urlencodedParser,admincontroller.Signup )
+router.get('/logout', admincontroller.logout);
 
 
 

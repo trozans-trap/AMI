@@ -24,6 +24,12 @@ router.get('/signup', admincontroller.getSignup);
 
 router.post('/signup', urlencodedParser, admincontroller.Signup);
 
+router.get('/about', admincontroller.getAbout);
+
+router.get('/resources', admincontroller.getAbout);
+router.get('/order', admincontroller.getOrder);
+router.get('/getCounselling', admincontroller.getCounselling);
+
 // router.post('/login',urlencodedParser,admincontroller.Signup )
 
 

@@ -101,3 +101,15 @@ exports.Signup = async (req, res) => {
 
     
 }
+
+exports.getAbout = async (req, res) => {
+    res.render('about');
+}
+
+exports.getOrder = async (req, res) => {
+    res.render('order');
+}
+
+exports.getCounselling = async (req, res) => {
+    res.render('consuling');
+}

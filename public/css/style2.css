@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-image:linear-gradient(to left, rgba(255,0,0,0), rgba(0,0,0,0.8)) ,url('/images/help.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    width: 100vw;
+    
+}
+
+.team-name{
+    font-size: 50px;
+    text-align: center;
+    margin-top: 5%;
+    font-style: bold;
+    color: black;
+}
+.try{
+    text-align: center;
+}
+
+.form{
+    background-color: #fff;
+    margin-top: 4%;
+    margin-left: 35%;
+    margin-right: 35%;
+    padding: 20px;
+    opacity: .5;
+}
+
+.submit{
+    text-align: center;
+}
+
+.content{
+    text-align: center;
+    color: white;
+    width: 350px;
+    margin-left: 39%;
+    background-color: azure;
+}
+
+a{
+    color: coral;
+}

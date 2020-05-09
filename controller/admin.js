@@ -110,6 +110,14 @@ exports.getOrder = async (req, res) => {
     res.render('order');
 }
 
-exports.getCounselling = async (req, res) => {
+exports.getResources = async (req, res) => {
     res.render('consuling');
+}
+
+exports.Team = async (req, res) => {
+    res.render('Team');
+}
+
+exports.counsel= async (req, res) => {
+    res.render('consul');
 }

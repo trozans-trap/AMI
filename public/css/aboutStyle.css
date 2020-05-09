@@ -1,0 +1,21 @@
+h1{
+	color: #3C2692;
+	font-size: 40px;
+	text-decoration: underline;
+}
+
+p{
+	 color: black;
+	 font-size: 30px;
+	 font-weight: bold;
+	 font-style: "Georgia";
+	 opacity: 0.7;
+}
+
+div{
+	margin: 10px;
+	padding: 10px;
+	background-image: url("/images/aboutImage.png");
+	background-repeat: no-repeat;	
+	
+}

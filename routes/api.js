@@ -28,7 +28,10 @@ router.get('/about', admincontroller.getAbout);
 
 router.get('/resources', admincontroller.getAbout);
 router.get('/order', admincontroller.getOrder);
-router.get('/getCounselling', admincontroller.getCounselling);
+router.get('/getResources', admincontroller.getResources);
+router.get('/Team', admincontroller.Team);
+router.get('/counsel', admincontroller.counsel);
+
 
 // router.post('/login',urlencodedParser,admincontroller.Signup )
 
